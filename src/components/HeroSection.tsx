@@ -46,11 +46,11 @@ function HeroSection() {
       {/* Text Content */}
       <div className="relative z-10 w-full px-6 text-center">
         <h1 className="mt-24 text-3xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Savor Every Bite at Sweet Home
+          Savor Every Bite at Sweet Home’s
         </h1>
 
         <p className="mt-4 text-sm md:text-lg text-neutral-300 max-w-2xl mx-auto">
-          Welcome to Sweet Home, where every dish is crafted with the freshest
+          Welcome to Sweet Home’s, where every dish is crafted with the freshest
           ingredients and a touch of creativity. Join us for a delightful dining
           experience that combines tradition with modern flair, making each
           visit truly special!
