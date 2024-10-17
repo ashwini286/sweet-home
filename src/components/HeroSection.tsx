@@ -23,23 +23,24 @@
 //         </div>
 
 //       </div>
-        
+
 //         </div>
 //   )
 // }
 
 // export default HeroSection
-import React from 'react';
-import Link from 'next/link';
-import { Spotlight } from '@/components/ui/Spotlight';
+import React from "react";
+import Link from "next/link";
+import { Spotlight } from "@/components/ui/Spotlight";
+import { Button } from "@/components/ui/moving-border";
 
 function HeroSection() {
   return (
     <div className="relative flex flex-col items-center justify-center w-full h-auto md:h-[40rem] py-10 md:py-0 mx-auto overflow-hidden rounded-md">
       {/* Spotlight Element with Better Positioning */}
-      <Spotlight 
-        className="absolute -top-32 left-0 md:-top-20 md:left-60" 
-        fill="white" 
+      <Spotlight
+        className="absolute -top-32 left-0 md:-top-20 md:left-60"
+        fill="white"
       />
 
       {/* Text Content */}
@@ -49,17 +50,21 @@ function HeroSection() {
         </h1>
 
         <p className="mt-4 text-sm md:text-lg text-neutral-300 max-w-2xl mx-auto">
-          Welcome to Sweet Home, where every dish is crafted with the freshest ingredients 
-          and a touch of creativity. Join us for a delightful dining experience that 
-          combines tradition with modern flair, making each visit truly special!
+          Welcome to Sweet Home, where every dish is crafted with the freshest
+          ingredients and a touch of creativity. Join us for a delightful dining
+          experience that combines tradition with modern flair, making each
+          visit truly special!
         </p>
 
         {/* Call-to-Action Button */}
         <div className="mt-6">
-          <Link 
-            href="/" 
-            className="px-6 py-3 text-white bg-blue-500 hover:bg-blue-600 rounded-md transition">
-            Start Now
+          <Link href="/">
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 text-lg"
+            >
+              Order Now
+            </Button>
           </Link>
         </div>
       </div>
