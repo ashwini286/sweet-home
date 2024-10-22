@@ -2,6 +2,7 @@
 import HeroSection from "@/components/HeroSection";
 import { Features } from "@/components/Features";
 import { Version } from "@/components/Version";
+import { ClientReview } from "@/components/ClientReview";
 export default function Home() {
   return (
 
@@ -9,6 +10,7 @@ export default function Home() {
     <HeroSection />
     <Features />
 <Version />
+<ClientReview />
     </main>
   );
 }
